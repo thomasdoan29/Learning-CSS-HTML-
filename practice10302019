@@ -1,0 +1,83 @@
+// learning the ins-and-out of CSS/HTML! my work so far today!//
+
+
+
+//css page!//
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.wrapper {
+    margin: 0 auto 0 60px;
+    width: 1000px;
+    background-color: red;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+ul {
+    margin-left: 60px;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    
+}
+
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+}
+
+.img-eye{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/eye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+// I made a very basic HTML page and I've been linking them to teach other!! been teaching myself how to insert images/sizing too!//
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="wrapper">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <h1>Home Page</h1>
+        </div>
+    </body>
+</html>

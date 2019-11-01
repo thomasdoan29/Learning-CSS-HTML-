@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-brand">Thomas Doan</a>
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="cases.html" class="header-cases">Cases</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>I AM A FREELANCE WEB<br>DEVELOPER</h2>
+                <h1>with specialty in front-end development, functionality, UX design, and Search Engine Optimization.</h1>
+            </section>
+        </main>
+        <footer>
 
+        </footer>
+    </body>
+</html>
+'
+
+
+
+
+
+//* CSS STYLING*//
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*my code*/
+
+
+* {
+    text-decoration: none;
+
+
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    
+}
+
+header .header-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #111;
+    font-weight:900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #111;
+
+}
+
+header .header-cases {
+    display: none;
+} 

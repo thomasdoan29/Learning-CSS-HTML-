@@ -1,0 +1,43 @@
+let array = [];
+array.push(420, "tree", true, 69, "fire", false, "combat", 999);
+let array2 = [];
+array2.push(111, "grass", true, 71, "water", false, "peace", 777);
+
+
+function mapArray(params) {
+    let object = {
+    string: [],
+    bool: [],
+    num: []};
+    
+    for (let i= 0; i < params.length; i++) {
+      if (typeof params[i] == "boolean") { object.bool.push(params[i])
+      } else if (typeof params[i] == "string") {object.string.push(params[i])} 
+      else {object.num.push(params[i])
+      };
+}; return object;
+}
+
+mapArray(array);
+//mapArray(array2);
+
+
+//console.log(object);
+
+
+//let arrow = params => {for (let i= 0; i < params.length; i++) {
+  //let object = {
+  //  string: [],
+ //   bool: [],
+  //  num: []};
+ // if (typeof params[i] == "boolean") { object.bool.push(params[i])
+ //   } else if (typeof params[i] == "string") {object.string.push(params[i])} 
+ //     else {object.num.push(params[i])
+ //     };
+//
+ //   object(params)};
+
+
+//arrow(array)
+
+console.log(mapArray(array));
